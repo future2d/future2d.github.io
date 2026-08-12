@@ -6,8 +6,7 @@
     "strict": true,
     "jsx": "preserve",
     "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "types": ["node", "vitest/globals"]
+    "skipLibCheck": true
   },
-  "include": ["docs/.vitepress/**/*.ts", "docs/.vitepress/**/*.vue", "tests/**/*.ts"]
+  "include": ["docs/.vitepress/**/*.ts"]
 }

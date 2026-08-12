@@ -55,7 +55,11 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en',
-      themeConfig: { sidebar: docsSidebar },
+      themeConfig: {
+        sidebar: {
+          '/docs/': docsSidebar,
+        },
+      },
     },
     zh: {
       label: '简体中文',
@@ -72,7 +76,9 @@ export default defineConfig({
           pattern: 'https://github.com/future2d/future2d.github.io/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页',
         },
-        sidebar: zhDocsSidebar,
+        sidebar: {
+          '/zh/docs/': zhDocsSidebar,
+        },
       },
     },
   },
