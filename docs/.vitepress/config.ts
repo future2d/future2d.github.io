@@ -91,7 +91,36 @@ export default defineConfig({
       text: 'Edit this page on GitHub',
     },
     outline: [2, 3],
-    search: { provider: 'local' },
+    search: {
+      provider: 'local',
+      options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索',
+                buttonAriaLabel: '搜索文档',
+              },
+              modal: {
+                displayDetails: '显示详细列表',
+                resetButtonTitle: '清空搜索',
+                backButtonTitle: '关闭搜索',
+                noResultsText: '没有找到与以下内容相关的结果：',
+                footer: {
+                  selectText: '选择',
+                  selectKeyAriaLabel: '回车',
+                  navigateText: '切换',
+                  navigateUpKeyAriaLabel: '向上箭头',
+                  navigateDownKeyAriaLabel: '向下箭头',
+                  closeText: '关闭',
+                  closeKeyAriaLabel: 'Esc',
+                },
+              },
+            },
+          },
+        },
+      },
+    },
   },
   locales: {
     root: {
