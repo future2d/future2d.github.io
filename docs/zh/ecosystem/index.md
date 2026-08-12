@@ -7,14 +7,14 @@ Future2D 整理相关技术，但不会把它们直接视为已经完成的标�
 ## 模型与骨骼动画
 
 | 项目 | 适配范围 | 状态 | 收录原因 |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | [spine-runtimes](/zh/ecosystem/spine-runtimes/) | Spine 骨骼动画数据及官方运行时 | 参考 | 用于研究 2D 骨骼动画格式和运行时。 [Fork](https://github.com/future2d/spine-runtimes) |
 | [DragonBonesCSharp](/zh/ecosystem/DragonBonesCSharp/) | DragonBones 数据、C# 与 Unity 运行时接入 | 参考 | 用于研究骨骼动画交换和托管运行时接入。 [Fork](https://github.com/future2d/DragonBonesCSharp) |
 
 ## 运行时与兼容性研究
 
 | 项目 | 适配范围 | 状态 | 收录原因 |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | [PurismCore](/zh/ecosystem/PurismCore/) | 兼容 Live2D Cubism Core 的 MOC3 加载 | 兼容性 | 作为开放 C99 运行时研究模型加载边界。 [Fork](https://github.com/future2d/PurismCore) |
 | [ayagami](/zh/ecosystem/ayagami/) | Live2D 格式 2D 木偶模型加载与渲染 | 兼容性 | 用于研究可扩展的 Rust 木偶渲染 SDK。 [Fork](https://github.com/future2d/ayagami) |
 | [Mocari](/zh/ecosystem/Mocari/) | Rust 中的 Live2D/Cubism 运行时实验 | 原型 | 用于研究实现边界与可移植性。 [Fork](https://github.com/future2d/Mocari) |
@@ -22,7 +22,7 @@ Future2D 整理相关技术，但不会把它们直接视为已经完成的标�
 ## 创作与应用管线
 
 | 项目 | 适配范围 | 状态 | 收录原因 |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | [umamo](/zh/ecosystem/umamo/) | CMO3/MOC3 导入导出和 2D 木偶创作 | 参考 | 用于研究源模型与运行时模型的数据流。 [Fork](https://github.com/future2d/umamo) |
 | [pencil2d](/zh/ecosystem/pencil2d/) | 位图、矢量与手绘逐帧 2D 动画 | 研究 | 用于研究非绑定型 2D 创作工作流。 [Fork](https://github.com/future2d/pencil2d) |
 | [synfig](/zh/ecosystem/synfig/) | 矢量和位图 2D 动画及其创作工具 | 研究 | 用于研究矢量动画创作与渲染概念。 [Fork](https://github.com/future2d/synfig) |

@@ -4,6 +4,7 @@ const docsSidebar = [
   {
     text: 'Documentation',
     items: [
+      { text: 'Documentation overview', link: '/docs/' },
       { text: 'Introduction', link: '/docs/introduction' },
       { text: 'Core concepts', link: '/docs/concepts' },
       { text: 'Specification drafts', link: '/docs/specification/' },
@@ -17,6 +18,7 @@ const zhDocsSidebar = [
   {
     text: '文档',
     items: [
+      { text: '文档总览', link: '/zh/docs/' },
       { text: '介绍', link: '/zh/docs/introduction' },
       { text: '核心概念', link: '/zh/docs/concepts' },
       { text: '规范草案', link: '/zh/docs/specification/' },
