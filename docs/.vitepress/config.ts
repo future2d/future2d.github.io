@@ -210,6 +210,10 @@ export default defineConfig({
           { text: '路线图', link: '/zh/roadmap/' },
           { text: '社区', link: '/zh/community/' },
         ],
+        darkModeSwitchLabel: '外观',
+        lightModeSwitchTitle: '切换到浅色主题',
+        darkModeSwitchTitle: '切换到深色主题',
+        returnToTopLabel: '返回顶部',
         editLink: {
           pattern: 'https://github.com/future2d/future2d.github.io/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页',
