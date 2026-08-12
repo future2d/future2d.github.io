@@ -31,6 +31,37 @@ const ecosystemSidebar = [
     text: 'Ecosystem',
     items: [{ text: 'Ecosystem overview', link: '/ecosystem/' }],
   },
+  {
+    text: 'Skeletal animation',
+    items: [
+      { text: 'spine-runtimes', link: '/ecosystem/spine-runtimes/' },
+      { text: 'DragonBonesCSharp', link: '/ecosystem/DragonBonesCSharp/' },
+    ],
+  },
+  {
+    text: 'Live2D and puppet runtimes',
+    items: [
+      { text: 'PurismCore', link: '/ecosystem/PurismCore/' },
+      { text: 'ayagami', link: '/ecosystem/ayagami/' },
+      { text: 'Mocari', link: '/ecosystem/Mocari/' },
+    ],
+  },
+  {
+    text: 'Authoring tools',
+    items: [
+      { text: 'umamo', link: '/ecosystem/umamo/' },
+      { text: 'pencil2d', link: '/ecosystem/pencil2d/' },
+      { text: 'synfig', link: '/ecosystem/synfig/' },
+    ],
+  },
+  {
+    text: 'Virtual-avatar applications',
+    items: [
+      { text: 'open-vt', link: '/ecosystem/open-vt/' },
+      { text: 'Motara', link: '/ecosystem/Motara/' },
+      { text: 'EasyVtuber', link: '/ecosystem/EasyVtuber/' },
+    ],
+  },
 ]
 
 const roadmapSidebar = [
@@ -51,6 +82,37 @@ const zhEcosystemSidebar = [
   {
     text: '生态',
     items: [{ text: '生态总览', link: '/zh/ecosystem/' }],
+  },
+  {
+    text: '骨骼动画',
+    items: [
+      { text: 'spine-runtimes', link: '/zh/ecosystem/spine-runtimes/' },
+      { text: 'DragonBonesCSharp', link: '/zh/ecosystem/DragonBonesCSharp/' },
+    ],
+  },
+  {
+    text: 'Live2D 与木偶运行时',
+    items: [
+      { text: 'PurismCore', link: '/zh/ecosystem/PurismCore/' },
+      { text: 'ayagami', link: '/zh/ecosystem/ayagami/' },
+      { text: 'Mocari', link: '/zh/ecosystem/Mocari/' },
+    ],
+  },
+  {
+    text: '创作工具',
+    items: [
+      { text: 'umamo', link: '/zh/ecosystem/umamo/' },
+      { text: 'pencil2d', link: '/zh/ecosystem/pencil2d/' },
+      { text: 'synfig', link: '/zh/ecosystem/synfig/' },
+    ],
+  },
+  {
+    text: '虚拟形象应用',
+    items: [
+      { text: 'open-vt', link: '/zh/ecosystem/open-vt/' },
+      { text: 'Motara', link: '/zh/ecosystem/Motara/' },
+      { text: 'EasyVtuber', link: '/zh/ecosystem/EasyVtuber/' },
+    ],
   },
 ]
 
