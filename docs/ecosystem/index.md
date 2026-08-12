@@ -32,7 +32,7 @@ The detail pages record the upstream source, the actual format or workflow each 
 | Project | Compatibility scope | Status | Why it is here |
 | --- | --- | --- | --- |
 | [open-vt](/ecosystem/open-vt/) | 2D VTubing; OpenSeeFace and VTube Studio tracking inputs | Research | A real application pipeline from tracking to transparent capture output. [Fork](https://github.com/future2d/open-vt) |
-| [Motara](/ecosystem/Motara/) | Planned facial-tracking processing and virtual-avatar control | Prototype | An early-stage application boundary reference; no public application source is currently published upstream. [Fork](https://github.com/future2d/Motara) |
+| [Motara](/ecosystem/Motara/) | Facial-tracking processing, virtual-avatar control, scene composition, and application outputs | Research | An active open-source desktop application that exposes practical tracking, model-runtime, scene, collaboration, and output boundaries. [Fork](https://github.com/future2d/Motara) |
 | [EasyVtuber](/ecosystem/EasyVtuber/) | Talking-head anime, facial tracking, OBS and Spout2 output | Research | A practical image-driven avatar pipeline distinct from skeletal or Live2D models. [Fork](https://github.com/future2d/EasyVtuber) |
 
 ## Reading the status labels

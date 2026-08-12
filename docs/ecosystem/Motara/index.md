@@ -7,26 +7,37 @@
 | Future2D fork | [future2d/Motara](https://github.com/future2d/Motara) |
 | Upstream | [MotaraSoft/Motara](https://github.com/MotaraSoft/Motara) |
 | Upstream organization | MotaraSoft |
-| Ecosystem role | Prototype |
+| Upstream revision reviewed | `16d9e4f` (2026-08-13) |
+| Ecosystem role | Research |
 
 ## Origin and ownership
 
-Motara is a fork of the project published by MotaraSoft. Its upstream README identifies it as a cross-platform project for facial-tracking data processing and virtual-avatar control. The upstream repository states that it is in early development and that public application source, tests, internal technical documentation, build assets, and development tools are not currently published. Future2D's fork is therefore a record of the public repository state, not a usable application distribution.
+Motara is a fork of the open-source desktop application published by MotaraSoft. The current upstream source tree contains the application and supporting libraries rather than only a project outline. The upstream project is in active development, has no official binary release yet, and does not make stable compatibility commitments for its APIs, file formats, network behavior, or supported platforms. Future2D's fork records the public repository state; it does not provide an official Motara distribution or transfer ownership from MotaraSoft.
 
 ## Compatibility scope
 
-The documented scope is **planned facial-tracking input processing and virtual-avatar control**. It is not presented upstream as a released implementation of Live2D, Cubism, Spine, DragonBones, a CMO3/MOC3 editor, or a Future2D format. The README describes intended support for configurable signal processing and output integrations, but those are future directions rather than public runtime capabilities.
+The current source implements a cross-platform desktop application for **facial-tracking data processing, virtual-avatar control, and scene composition**. The documented implementation includes:
+
+- an Avalonia desktop shell with English and Simplified Chinese localization;
+- local scenes, model assignment, image/video backgrounds, effects, screenshots, and Spout2/NDI signal attachments;
+- a model library that imports Cubism model descriptor directories and ZIP, RAR, or 7Z archives;
+- MOC3 parsing and Skia rendering through the separately maintained MIT-licensed [PurismCore](https://github.com/MotaraSoft/PurismCore) component;
+- iFacialMocap UDP, local-camera MediaPipe, and local OpenSeeFace tracking adapters with mapping, formulas, calibration, filtering, and parameter priorities;
+- a configurable Live2D Cubism Editor external-API output adapter; and
+- early collaboration primitives for identities, invitations, encrypted peer frames, friends, and model-package transfer.
+
+These capabilities are not equivalent to a released or universally portable runtime. VTube Studio output, a public plugin SDK, a plugin host, stable extension contracts, and release-ready end-to-end interoperability are not implemented. MOC3 rendering, video decoding, tracking inputs, and Spout2/NDI output also depend on optional local runtimes or external applications that are not included in a clean checkout.
 
 Motara's repository includes an internal PurismCore compliance record. That record is a limited technical observation described by MotaraSoft and explicitly not a legal conclusion; it must not be recast here as legal clearance or a statement about any third party.
 
 ## Why Future2D catalogs it
 
-An early avatar-control project is useful for mapping the boundary between tracking signals, parameter processing, application control, and renderer or model runtime behavior. It helps keep the standard discussion precise: input devices and tracking protocols may be important integrations without becoming mandatory parts of a 2D model package.
+Motara now provides a concrete application pipeline for mapping the boundary between tracking signals, parameter processing, model runtime behavior, scene composition, collaboration, and desktop output. Its source also exposes practical concerns that a future standard must describe without conflating them with the model package itself: local asset discovery, parameter mapping, renderer fallbacks, capture surfaces, and optional native dependencies. The project is therefore useful evidence for application and integration contracts, while remaining independent from the Future2D standard.
 
 ## Role of the Future2D fork
 
-The fork is a prototype reference only. Future2D does not claim an implementation relationship with MotaraSoft, access to unpublished source, or compatibility with any planned feature. Future development must be evaluated from published upstream revisions and documentation.
+The fork is retained as a research reference for a working application architecture. Future2D does not claim an implementation relationship with MotaraSoft, endorsement, synchronized releases, or compatibility with every Motara feature. Capability statements on this page are tied to the reviewed upstream revision and should be checked against newer upstream commits before use.
 
 ## License and use boundary
 
-The upstream README says future Motara application source is intended to use Mozilla Public License 2.0 and that the name and visual identity are governed separately by a trademark policy. Follow the upstream repository for current terms. Motara is not affiliated with or endorsed by Future2D merely because a fork is cataloged here.
+The upstream repository licenses Motara-authored source under the Mozilla Public License 2.0 unless a file states otherwise, and its explanatory documentation under CC BY 4.0. PurismCore and other optional components retain their own licenses and distribution conditions; the upstream repository does not include official redistributable bundles for those runtimes and dependencies. Motara's name, logos, and visual identity are governed separately by the upstream trademark policy. Follow the upstream notices for current terms. Cataloging a fork does not create affiliation or endorsement between MotaraSoft and Future2D.

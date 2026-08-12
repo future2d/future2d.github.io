@@ -32,7 +32,7 @@ Future2D 整理相关技术，但不会把它们直接视为已经完成的标�
 | 项目 | 适配范围 | 状态 | 收录原因 |
 | --- | --- | --- | --- |
 | [open-vt](/zh/ecosystem/open-vt/) | 2D 虚拟主播、OpenSeeFace 与 VTube Studio 追踪输入 | 研究 | 提供从追踪到透明捕获输出的完整应用管线。 [Fork](https://github.com/future2d/open-vt) |
-| [Motara](/zh/ecosystem/Motara/) | 计划中的面部追踪处理与虚拟形象控制 | 原型 | 早期应用边界参考；上游尚未公开应用源代码。 [Fork](https://github.com/future2d/Motara) |
+| [Motara](/zh/ecosystem/Motara/) | 面部捕捉处理、虚拟形象控制、场景合成与应用输出 | 研究 | 积极开发中的开源桌面应用，用于研究捕捉、模型运行时、场景、协作和输出边界。 [Fork](https://github.com/future2d/Motara) |
 | [EasyVtuber](/zh/ecosystem/EasyVtuber/) | Talking-head anime、面捕、OBS 与 Spout2 输出 | 研究 | 研究区别于骨骼或 Live2D 模型的图像驱动虚拟形象管线。 [Fork](https://github.com/future2d/EasyVtuber) |
 
 ## 状态标签说明
