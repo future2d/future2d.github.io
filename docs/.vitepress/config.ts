@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import { markdown as zhMarkdown } from '../zh/config.ts'
 
 const docsSidebar = [
   {
@@ -10,20 +11,6 @@ const docsSidebar = [
       { text: 'Specification drafts', link: '/docs/specification/' },
       { text: 'Integration guides', link: '/docs/guides/' },
       { text: 'Compatibility', link: '/docs/compatibility' },
-    ],
-  },
-]
-
-const zhDocsSidebar = [
-  {
-    text: '文档',
-    items: [
-      { text: '文档总览', link: '/zh/docs/' },
-      { text: '介绍', link: '/zh/docs/introduction' },
-      { text: '核心概念', link: '/zh/docs/concepts' },
-      { text: '规范草案', link: '/zh/docs/specification/' },
-      { text: '接入指南', link: '/zh/docs/guides/' },
-      { text: '兼容性', link: '/zh/docs/compatibility' },
     ],
   },
 ]
@@ -80,58 +67,6 @@ const communitySidebar = [
   },
 ]
 
-const zhEcosystemSidebar = [
-  {
-    text: '生态',
-    items: [{ text: '生态总览', link: '/zh/ecosystem/' }],
-  },
-  {
-    text: '骨骼动画',
-    items: [
-      { text: 'spine-runtimes', link: '/zh/ecosystem/spine-runtimes/' },
-      { text: 'DragonBonesCSharp', link: '/zh/ecosystem/DragonBonesCSharp/' },
-    ],
-  },
-  {
-    text: 'Live2D 与木偶运行时',
-    items: [
-      { text: 'PurismCore', link: '/zh/ecosystem/PurismCore/' },
-      { text: 'ayagami', link: '/zh/ecosystem/ayagami/' },
-      { text: 'Mocari', link: '/zh/ecosystem/Mocari/' },
-    ],
-  },
-  {
-    text: '创作工具',
-    items: [
-      { text: 'umamo', link: '/zh/ecosystem/umamo/' },
-      { text: 'pencil2d', link: '/zh/ecosystem/pencil2d/' },
-      { text: 'synfig', link: '/zh/ecosystem/synfig/' },
-    ],
-  },
-  {
-    text: '虚拟形象应用',
-    items: [
-      { text: 'open-vt', link: '/zh/ecosystem/open-vt/' },
-      { text: 'Motara', link: '/zh/ecosystem/Motara/' },
-      { text: 'EasyVtuber', link: '/zh/ecosystem/EasyVtuber/' },
-    ],
-  },
-]
-
-const zhRoadmapSidebar = [
-  {
-    text: '路线图',
-    items: [{ text: '路线图总览', link: '/zh/roadmap/' }],
-  },
-]
-
-const zhCommunitySidebar = [
-  {
-    text: '社区',
-    items: [{ text: '社区总览', link: '/zh/community/' }],
-  },
-]
-
 export default defineConfig({
   title: 'Future2D',
   description: 'An open standard initiative for next-generation 2D models.',
@@ -157,39 +92,13 @@ export default defineConfig({
     outline: [2, 3],
     search: {
       provider: 'local',
-      options: {
-        locales: {
-          zh: {
-            translations: {
-              button: {
-                buttonText: '搜索',
-                buttonAriaLabel: '搜索文档',
-              },
-              modal: {
-                displayDetails: '显示详细列表',
-                resetButtonTitle: '清空搜索',
-                backButtonTitle: '关闭搜索',
-                noResultsText: '没有找到与以下内容相关的结果：',
-                footer: {
-                  selectText: '选择',
-                  selectKeyAriaLabel: '回车',
-                  navigateText: '切换',
-                  navigateUpKeyAriaLabel: '向上箭头',
-                  navigateDownKeyAriaLabel: '向下箭头',
-                  closeText: '关闭',
-                  closeKeyAriaLabel: 'Esc',
-                },
-              },
-            },
-          },
-        },
-      },
     },
   },
   locales: {
     root: {
       label: 'English',
-      lang: 'en',
+      lang: 'en-US',
+      dir: 'ltr',
       themeConfig: {
         sidebar: {
           '/ecosystem/': ecosystemSidebar,
@@ -201,34 +110,9 @@ export default defineConfig({
     },
     zh: {
       label: '简体中文',
-      lang: 'zh-CN',
-      link: '/zh/',
-      themeConfig: {
-        nav: [
-          { text: '生态', link: '/zh/ecosystem/' },
-          { text: '文档', link: '/zh/docs/' },
-          { text: '路线图', link: '/zh/roadmap/' },
-          { text: '社区', link: '/zh/community/' },
-        ],
-        darkModeSwitchLabel: '外观',
-        lightModeSwitchTitle: '切换到浅色主题',
-        darkModeSwitchTitle: '切换到深色主题',
-        returnToTopLabel: '返回顶部',
-        editLink: {
-          pattern: 'https://github.com/future2d/future2d.github.io/edit/main/docs/:path',
-          text: '在 GitHub 上编辑此页',
-        },
-        outline: {
-          level: [2, 3],
-          label: '本页内容',
-        },
-        sidebar: {
-          '/zh/ecosystem/': zhEcosystemSidebar,
-          '/zh/docs/': zhDocsSidebar,
-          '/zh/roadmap/': zhRoadmapSidebar,
-          '/zh/community/': zhCommunitySidebar,
-        },
-      },
+      lang: 'zh-Hans',
+      dir: 'ltr',
+      markdown: zhMarkdown,
     },
   },
 })
