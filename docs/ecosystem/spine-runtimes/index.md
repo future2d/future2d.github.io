@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/spine-runtimes](https://github.com/future2d/spine-runtimes) |
 | Upstream | [EsotericSoftware/spine-runtimes](https://github.com/EsotericSoftware/spine-runtimes) |
 | Upstream organization | Esoteric Software |
+| Article basis | Future2D fork `51d8d78` (2026-08-04) |
 | Ecosystem role | Reference |
 
 ## Origin and ownership

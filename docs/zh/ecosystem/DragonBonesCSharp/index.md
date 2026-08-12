@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/DragonBonesCSharp](https://github.com/future2d/DragonBonesCSharp) |
 | 上游仓库 | [DragonBones/DragonBonesCSharp](https://github.com/DragonBones/DragonBonesCSharp) |
 | 上游组织 | DragonBones |
+| 本文依据 | Future2D fork `29a3613`（2026-05-08） |
 | 生态角色 | 参考 |
 
 ## 来源与归属

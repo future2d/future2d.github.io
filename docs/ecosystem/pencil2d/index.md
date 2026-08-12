@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/pencil2d](https://github.com/future2d/pencil2d) |
 | Upstream | [pencil2d/pencil](https://github.com/pencil2d/pencil) |
 | Upstream organization | pencil2d |
+| Article basis | Future2D fork `195bfda` (2026-08-05) |
 | Ecosystem role | Research |
 
 ## Origin and ownership

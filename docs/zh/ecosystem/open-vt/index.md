@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/open-vt](https://github.com/future2d/open-vt) |
 | 上游仓库 | [erodozer/open-vt](https://github.com/erodozer/open-vt) |
 | 上游组织 | erodozer |
+| 本文依据 | Future2D fork `6e2ffa6`（2026-08-10） |
 | 生态角色 | 研究 |
 
 ## 来源与归属

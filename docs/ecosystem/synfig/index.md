@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/synfig](https://github.com/future2d/synfig) |
 | Upstream | [synfig/synfig](https://github.com/synfig/synfig) |
 | Upstream organization | synfig |
+| Article basis | Future2D fork `7a2f03f` (2026-08-08) |
 | Ecosystem role | Research |
 
 ## Origin and ownership

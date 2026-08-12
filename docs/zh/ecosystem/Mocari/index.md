@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/Mocari](https://github.com/future2d/Mocari) |
 | 上游仓库 | [Eatgrapes/Mocari](https://github.com/Eatgrapes/Mocari) |
 | 上游组织 | Eatgrapes |
+| 本文依据 | Future2D fork `13c7ed3`（2026-07-13） |
 | 生态角色 | 原型 |
 
 ## 来源与归属

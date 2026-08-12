@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/PurismCore](https://github.com/future2d/PurismCore) |
 | Upstream | [SakuraMotion/PurismCore](https://github.com/SakuraMotion/PurismCore) |
 | Upstream organization | SakuraMotion |
+| Article basis | Future2D fork `97dd2a5` (2026-06-08) |
 | Ecosystem role | Compatibility |
 
 ## Origin and ownership

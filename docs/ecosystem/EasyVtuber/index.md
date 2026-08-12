@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/EasyVtuber](https://github.com/future2d/EasyVtuber) |
 | GitHub fork parent | [yuyuyzl/EasyVtuber](https://github.com/yuyuyzl/EasyVtuber) |
 | Earlier source noted upstream | [GunwooHan/EasyVtuber](https://github.com/GunwooHan/EasyVtuber) |
+| Article basis | Future2D fork `f7dd2de` (2026-02-12) |
 | Ecosystem role | Research |
 
 ## Origin and ownership

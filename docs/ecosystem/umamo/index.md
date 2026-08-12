@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/umamo](https://github.com/future2d/umamo) |
 | Upstream | [umamoorg/umamo](https://github.com/umamoorg/umamo) |
 | Upstream organization | umamoorg |
+| Article basis | Future2D fork `b5cb72d` (2026-08-12) |
 | Ecosystem role | Reference |
 
 ## Origin and ownership

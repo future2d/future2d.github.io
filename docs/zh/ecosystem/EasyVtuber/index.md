@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/EasyVtuber](https://github.com/future2d/EasyVtuber) |
 | GitHub fork 父仓库 | [yuyuyzl/EasyVtuber](https://github.com/yuyuyzl/EasyVtuber) |
 | 上游 README 记录的更早来源 | [GunwooHan/EasyVtuber](https://github.com/GunwooHan/EasyVtuber) |
+| 本文依据 | Future2D fork `f7dd2de`（2026-02-12） |
 | 生态角色 | 研究 |
 
 ## 来源与归属

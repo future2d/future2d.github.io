@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/open-vt](https://github.com/future2d/open-vt) |
 | Upstream | [erodozer/open-vt](https://github.com/erodozer/open-vt) |
 | Upstream organization | erodozer |
+| Article basis | Future2D fork `6e2ffa6` (2026-08-10) |
 | Ecosystem role | Research |
 
 ## Origin and ownership

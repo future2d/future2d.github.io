@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/DragonBonesCSharp](https://github.com/future2d/DragonBonesCSharp) |
 | Upstream | [DragonBones/DragonBonesCSharp](https://github.com/DragonBones/DragonBonesCSharp) |
 | Upstream organization | DragonBones |
+| Article basis | Future2D fork `29a3613` (2026-05-08) |
 | Ecosystem role | Reference |
 
 ## Origin and ownership

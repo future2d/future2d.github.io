@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/spine-runtimes](https://github.com/future2d/spine-runtimes) |
 | 上游仓库 | [EsotericSoftware/spine-runtimes](https://github.com/EsotericSoftware/spine-runtimes) |
 | 上游组织 | Esoteric Software |
+| 本文依据 | Future2D fork `51d8d78`（2026-08-04） |
 | 生态角色 | 参考 |
 
 ## 来源与归属

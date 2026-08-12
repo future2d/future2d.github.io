@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/PurismCore](https://github.com/future2d/PurismCore) |
 | 上游仓库 | [SakuraMotion/PurismCore](https://github.com/SakuraMotion/PurismCore) |
 | 上游组织 | SakuraMotion |
+| 本文依据 | Future2D fork `97dd2a5`（2026-06-08） |
 | 生态角色 | 兼容性 |
 
 ## 来源与归属

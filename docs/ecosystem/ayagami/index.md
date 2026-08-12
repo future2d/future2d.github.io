@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/ayagami](https://github.com/future2d/ayagami) |
 | Upstream | [AyagamiDev/ayagami](https://github.com/AyagamiDev/ayagami) |
 | Upstream organization | AyagamiDev |
+| Article basis | Future2D fork `ffb8d50` (2026-08-11) |
 | Ecosystem role | Compatibility |
 
 ## Origin and ownership

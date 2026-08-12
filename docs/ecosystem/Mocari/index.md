@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/Mocari](https://github.com/future2d/Mocari) |
 | Upstream | [Eatgrapes/Mocari](https://github.com/Eatgrapes/Mocari) |
 | Upstream organization | Eatgrapes |
+| Article basis | Future2D fork `13c7ed3` (2026-07-13) |
 | Ecosystem role | Prototype |
 
 ## Origin and ownership

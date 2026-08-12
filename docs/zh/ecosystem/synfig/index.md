@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/synfig](https://github.com/future2d/synfig) |
 | 上游仓库 | [synfig/synfig](https://github.com/synfig/synfig) |
 | 上游组织 | synfig |
+| 本文依据 | Future2D fork `7a2f03f`（2026-08-08） |
 | 生态角色 | 研究 |
 
 ## 来源与归属

@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/pencil2d](https://github.com/future2d/pencil2d) |
 | 上游仓库 | [pencil2d/pencil](https://github.com/pencil2d/pencil) |
 | 上游组织 | pencil2d |
+| 本文依据 | Future2D fork `195bfda`（2026-08-05） |
 | 生态角色 | 研究 |
 
 ## 来源与归属

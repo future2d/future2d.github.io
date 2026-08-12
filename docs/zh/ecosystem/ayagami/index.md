@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/ayagami](https://github.com/future2d/ayagami) |
 | 上游仓库 | [AyagamiDev/ayagami](https://github.com/AyagamiDev/ayagami) |
 | 上游组织 | AyagamiDev |
+| 本文依据 | Future2D fork `ffb8d50`（2026-08-11） |
 | 生态角色 | 兼容性 |
 
 ## 来源与归属

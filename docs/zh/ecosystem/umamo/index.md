@@ -7,6 +7,7 @@
 | Future2D fork | [future2d/umamo](https://github.com/future2d/umamo) |
 | 上游仓库 | [umamoorg/umamo](https://github.com/umamoorg/umamo) |
 | 上游组织 | umamoorg |
+| 本文依据 | Future2D fork `b5cb72d`（2026-08-12） |
 | 生态角色 | 参考 |
 
 ## 来源与归属
