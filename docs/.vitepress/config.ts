@@ -26,6 +26,48 @@ const zhDocsSidebar = [
   },
 ]
 
+const ecosystemSidebar = [
+  {
+    text: 'Ecosystem',
+    items: [{ text: 'Ecosystem overview', link: '/ecosystem/' }],
+  },
+]
+
+const roadmapSidebar = [
+  {
+    text: 'Roadmap',
+    items: [{ text: 'Roadmap overview', link: '/roadmap/' }],
+  },
+]
+
+const communitySidebar = [
+  {
+    text: 'Community',
+    items: [{ text: 'Community overview', link: '/community/' }],
+  },
+]
+
+const zhEcosystemSidebar = [
+  {
+    text: '生态',
+    items: [{ text: '生态总览', link: '/zh/ecosystem/' }],
+  },
+]
+
+const zhRoadmapSidebar = [
+  {
+    text: '路线图',
+    items: [{ text: '路线图总览', link: '/zh/roadmap/' }],
+  },
+]
+
+const zhCommunitySidebar = [
+  {
+    text: '社区',
+    items: [{ text: '社区总览', link: '/zh/community/' }],
+  },
+]
+
 export default defineConfig({
   title: 'Future2D',
   description: 'An open standard initiative for next-generation 2D models.',
@@ -57,7 +99,10 @@ export default defineConfig({
       lang: 'en',
       themeConfig: {
         sidebar: {
+          '/ecosystem/': ecosystemSidebar,
           '/docs/': docsSidebar,
+          '/roadmap/': roadmapSidebar,
+          '/community/': communitySidebar,
         },
       },
     },
@@ -77,7 +122,10 @@ export default defineConfig({
           text: '在 GitHub 上编辑此页',
         },
         sidebar: {
+          '/zh/ecosystem/': zhEcosystemSidebar,
           '/zh/docs/': zhDocsSidebar,
+          '/zh/roadmap/': zhRoadmapSidebar,
+          '/zh/community/': zhCommunitySidebar,
         },
       },
     },
