@@ -13,16 +13,16 @@ Future2D 整理相关技术，但不会把它们直接视为已经完成的标�
 
 | 项目 | 状态 | 收录原因 |
 | --- | --- | --- |
-| [PurismCore](https://github.com/future2d/PurismCore) | 兼容性 | 用于加载 MOC3 文件的开源 Live2D 兼容运行时。[上游项目](https://github.com/avahci/PurismCore) |
-| [Ayagami](https://github.com/future2d/ayagami) | 兼容性 | 兼容 Live2D 的 2D 木偶渲染器，用于运行时互操作研究。[上游项目](https://github.com/OpalAyagami/ayagami) |
-| [Mocari](https://github.com/future2d/Mocari) | 原型 | 纯 Rust 的 Live2D/Cubism 运行时实验，用于理解实现边界。[上游项目](https://github.com/Ohmwada/mocari) |
+| [PurismCore](https://github.com/future2d/PurismCore) | 兼容性 | 用于加载 MOC3 文件的开源 Live2D 兼容运行时。[上游项目](https://github.com/SakuraMotion/PurismCore) |
+| [Ayagami](https://github.com/future2d/ayagami) | 兼容性 | 兼容 Live2D 的 2D 木偶渲染器，用于运行时互操作研究。[上游项目](https://github.com/AyagamiDev/ayagami) |
+| [Mocari](https://github.com/future2d/Mocari) | 原型 | 纯 Rust 的 Live2D/Cubism 运行时实验，用于理解实现边界。[上游项目](https://github.com/Eatgrapes/Mocari) |
 
 ## 创作与应用管线
 
 | 项目 | 状态 | 收录原因 |
 | --- | --- | --- |
-| [Umamo](https://github.com/future2d/umamo) | 参考 | 跨平台 2D 木偶动画绑定编辑器，是创作工作流的重要参考。[上游项目](https://github.com/Yukariin/Umamo) |
-| [Open VT](https://github.com/future2d/open-vt) | 研究 | 开源 2D 虚拟主播软件，提供真实应用管线的证据。[上游项目](https://github.com/ArpaAP/open-vt) |
+| [Umamo](https://github.com/future2d/umamo) | 参考 | 跨平台 2D 木偶动画绑定编辑器，是创作工作流的重要参考。[上游项目](https://github.com/umamoorg/umamo) |
+| [Open VT](https://github.com/future2d/open-vt) | 研究 | 开源 2D 虚拟主播软件，提供真实应用管线的证据。[上游项目](https://github.com/erodozer/open-vt) |
 
 ## 状态标签说明
 

@@ -13,16 +13,16 @@ Future2D catalogues relevant technologies without treating them as parts of a fi
 
 | Project | Status | Why it is here |
 | --- | --- | --- |
-| [PurismCore](https://github.com/future2d/PurismCore) | Compatibility | An open Live2D-compatible runtime for loading MOC3 files. [Upstream](https://github.com/avahci/PurismCore) |
-| [Ayagami](https://github.com/future2d/ayagami) | Compatibility | A 2D puppet renderer compatible with Live2D, used for runtime interoperability research. [Upstream](https://github.com/OpalAyagami/ayagami) |
-| [Mocari](https://github.com/future2d/Mocari) | Prototype | A pure Rust Live2D/Cubism runtime experiment that informs implementation boundaries. [Upstream](https://github.com/Ohmwada/mocari) |
+| [PurismCore](https://github.com/future2d/PurismCore) | Compatibility | An open Live2D-compatible runtime for loading MOC3 files. [Upstream](https://github.com/SakuraMotion/PurismCore) |
+| [Ayagami](https://github.com/future2d/ayagami) | Compatibility | A 2D puppet renderer compatible with Live2D, used for runtime interoperability research. [Upstream](https://github.com/AyagamiDev/ayagami) |
+| [Mocari](https://github.com/future2d/Mocari) | Prototype | A pure Rust Live2D/Cubism runtime experiment that informs implementation boundaries. [Upstream](https://github.com/Eatgrapes/Mocari) |
 
 ## Authoring and application pipelines
 
 | Project | Status | Why it is here |
 | --- | --- | --- |
-| [Umamo](https://github.com/future2d/umamo) | Reference | A cross-platform rigging editor for 2D puppet animation and a useful authoring workflow reference. [Upstream](https://github.com/Yukariin/Umamo) |
-| [Open VT](https://github.com/future2d/open-vt) | Research | Open-source 2D VTuber software included as a real application pipeline reference. [Upstream](https://github.com/ArpaAP/open-vt) |
+| [Umamo](https://github.com/future2d/umamo) | Reference | A cross-platform rigging editor for 2D puppet animation and a useful authoring workflow reference. [Upstream](https://github.com/umamoorg/umamo) |
+| [Open VT](https://github.com/future2d/open-vt) | Research | Open-source 2D VTuber software included as a real application pipeline reference. [Upstream](https://github.com/erodozer/open-vt) |
 
 ## Reading the status labels
 
