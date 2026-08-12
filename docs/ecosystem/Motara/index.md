@@ -7,12 +7,12 @@
 | Future2D fork | [future2d/Motara](https://github.com/future2d/Motara) |
 | Upstream | [MotaraSoft/Motara](https://github.com/MotaraSoft/Motara) |
 | Upstream organization | MotaraSoft |
-| Upstream revision reviewed | `16d9e4f` (2026-08-13) |
+| Article basis | Future2D fork `16d9e4f` (2026-08-13) |
 | Ecosystem role | Research |
 
 ## Origin and ownership
 
-Motara is a fork of the open-source desktop application published by MotaraSoft. The current upstream source tree contains the application and supporting libraries rather than only a project outline. The upstream project is in active development, has no official binary release yet, and does not make stable compatibility commitments for its APIs, file formats, network behavior, or supported platforms. Future2D's fork records the public repository state; it does not provide an official Motara distribution or transfer ownership from MotaraSoft.
+Motara is a fork of the open-source desktop application published by MotaraSoft. The current Future2D fork contains the application and supporting libraries rather than only a project outline. The version basis for this article is the Future2D fork revision listed above; the upstream repository is cited for origin and ownership, not as the version anchor for these descriptions. Motara remains in active development, has no official binary release yet, and does not make stable compatibility commitments for its APIs, file formats, network behavior, or supported platforms. Future2D's fork records the public repository state; it does not provide an official Motara distribution or transfer ownership from MotaraSoft.
 
 ## Compatibility scope
 
@@ -36,7 +36,7 @@ Motara now provides a concrete application pipeline for mapping the boundary bet
 
 ## Role of the Future2D fork
 
-The fork is retained as a research reference for a working application architecture. Future2D does not claim an implementation relationship with MotaraSoft, endorsement, synchronized releases, or compatibility with every Motara feature. Capability statements on this page are tied to the reviewed upstream revision and should be checked against newer upstream commits before use.
+The fork is retained as a research reference for a working application architecture. Future2D does not claim an implementation relationship with MotaraSoft, endorsement, synchronized releases, or compatibility with every Motara feature. Capability statements on this page are tied to the reviewed Future2D fork revision and should be checked against newer fork commits before use.
 
 ## License and use boundary
 

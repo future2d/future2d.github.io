@@ -7,12 +7,12 @@
 | Future2D fork | [future2d/Motara](https://github.com/future2d/Motara) |
 | 上游仓库 | [MotaraSoft/Motara](https://github.com/MotaraSoft/Motara) |
 | 上游组织 | MotaraSoft |
-| 已核对上游修订 | `16d9e4f`（2026-08-13） |
+| 本文依据 | Future2D fork `16d9e4f`（2026-08-13） |
 | 生态角色 | 研究 |
 
 ## 来源与归属
 
-Motara 是 MotaraSoft 发布的开源桌面应用 fork。当前上游源码树已经包含应用本体和配套库，而不再只是项目概要。项目仍处于积极开发阶段，尚未提供官方二进制发行版；其 API、文件格式、网络行为和受支持平台范围也尚未构成稳定的兼容性承诺。Future2D fork 记录的是公开仓库状态，不是 Motara 官方分发包，也不改变 MotaraSoft 的所有权。
+Motara 是 MotaraSoft 发布的开源桌面应用 fork。当前 Future2D fork 已经包含应用本体和配套库，而不再只是项目概要。本说明文章以表中列出的 Future2D fork 修订作为版本依据；上游仓库用于说明来源与归属，不作为本页描述的版本锚点。Motara 仍处于积极开发阶段，尚未提供官方二进制发行版；其 API、文件格式、网络行为和受支持平台范围也尚未构成稳定的兼容性承诺。Future2D fork 记录的是公开仓库状态，不是 Motara 官方分发包，也不改变 MotaraSoft 的所有权。
 
 ## 适配范围
 
@@ -36,7 +36,7 @@ Motara 现在提供了一条具体的应用管线，用于研究 tracking signal
 
 ## Future2D fork 的角色
 
-该 fork 作为工作中应用架构的研究参考保留。Future2D 不主张与 MotaraSoft 存在实施关系、得到认可、同步发行，也不主张兼容 Motara 的全部功能。本页能力描述以已核对的上游修订为依据；使用时应再次检查上游的新提交。
+该 fork 作为工作中应用架构的研究参考保留。Future2D 不主张与 MotaraSoft 存在实施关系、得到认可、同步发行，也不主张兼容 Motara 的全部功能。本页能力描述以已核对的 Future2D fork 修订为依据；使用时应再次检查 fork 的新提交。
 
 ## 许可证与使用边界
 
