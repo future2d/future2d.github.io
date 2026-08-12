@@ -1,12 +1,6 @@
-<script setup>
-import RoadmapTimeline from '../../.vitepress/theme/components/RoadmapTimeline.vue'
-</script>
-
 # 路线图
 
 Future2D 是一个开放的标准研究项目。本路线图描述研究如何逐步成为经过验证、可以互操作的基础。
-
-<RoadmapTimeline locale="zh" />
 
 ## 阶段说明
 

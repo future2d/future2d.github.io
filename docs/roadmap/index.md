@@ -1,12 +1,6 @@
-<script setup>
-import RoadmapTimeline from '../.vitepress/theme/components/RoadmapTimeline.vue'
-</script>
-
 # Roadmap
 
 Future2D is an open standard research effort. The roadmap describes how research can become a tested and interoperable foundation.
-
-<RoadmapTimeline locale="en" />
 
 ## What each phase means
 

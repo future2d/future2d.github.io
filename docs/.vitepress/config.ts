@@ -44,6 +44,10 @@ export default defineConfig({
       { text: 'Community', link: '/community/' },
     ],
     socialLinks: [{ icon: 'github', link: 'https://github.com/future2d' }],
+    editLink: {
+      pattern: 'https://github.com/future2d/future2d.github.io/edit/main/docs/:path',
+      text: 'Edit this page on GitHub',
+    },
     outline: [2, 3],
     search: { provider: 'local' },
   },
@@ -64,6 +68,10 @@ export default defineConfig({
           { text: '路线图', link: '/zh/roadmap/' },
           { text: '社区', link: '/zh/community/' },
         ],
+        editLink: {
+          pattern: 'https://github.com/future2d/future2d.github.io/edit/main/docs/:path',
+          text: '在 GitHub 上编辑此页',
+        },
         sidebar: zhDocsSidebar,
       },
     },

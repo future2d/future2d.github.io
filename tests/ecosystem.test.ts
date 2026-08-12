@@ -1,24 +1,18 @@
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 import { describe, expect, it } from 'vitest'
-import { categoryOrder, ecosystemEntries, getEntrySummary } from '../docs/.vitepress/theme/data/ecosystem'
-import { getLocalizedPath } from '../docs/.vitepress/theme/data/locale'
 
-describe('ecosystem catalogue', () => {
-  it('keeps unique ids and bilingual descriptions for every entry', () => {
-    expect(new Set(ecosystemEntries.map((entry) => entry.id)).size).toBe(ecosystemEntries.length)
-    for (const entry of ecosystemEntries) {
-      expect(categoryOrder).toContain(entry.category)
-      expect(getEntrySummary(entry, 'en').trim()).not.toBe('')
-      expect(getEntrySummary(entry, 'zh').trim()).not.toBe('')
-      expect(entry.upstreamUrl ?? entry.future2dUrl).toMatch(/^https:\/\//)
-    }
-  })
+describe('site content', () => {
+  it('uses VitePress built-in theme and locale navigation', () => {
+    const config = readFileSync(resolve('docs/.vitepress/config.ts'), 'utf8')
+    const englishHome = readFileSync(resolve('docs/index.md'), 'utf8')
+    const chineseHome = readFileSync(resolve('docs/zh/index.md'), 'utf8')
 
-  it('preserves default and Chinese internal paths', () => {
-    expect(getLocalizedPath('/ecosystem/', 'en')).toBe('/ecosystem/')
-    expect(getLocalizedPath('/ecosystem/', 'zh')).toBe('/zh/ecosystem/')
-    expect(getLocalizedPath('/zh/docs/', 'en')).toBe('/docs/')
+    expect(existsSync(resolve('docs/.vitepress/theme'))).toBe(false)
+    expect(config).toContain("label: 'English'")
+    expect(config).toContain("label: '简体中文'")
+    expect(englishHome).toContain('layout: home')
+    expect(chineseHome).toContain('layout: home')
   })
 
   it('keeps every first-release documentation page substantive and mirrored in Chinese', () => {
