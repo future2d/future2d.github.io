@@ -121,6 +121,10 @@ export default defineConfig({
           pattern: 'https://github.com/future2d/future2d.github.io/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页',
         },
+        outline: {
+          level: [2, 3],
+          label: '本页内容',
+        },
         sidebar: {
           '/zh/ecosystem/': zhEcosystemSidebar,
           '/zh/docs/': zhDocsSidebar,
