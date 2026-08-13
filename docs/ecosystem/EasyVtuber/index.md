@@ -12,21 +12,21 @@
 
 ## Origin and ownership
 
-The Future2D repository is a GitHub fork of yuyuyzl/EasyVtuber. That upstream README separately states that its project was forked from GunwooHan/EasyVtuber and incorporates or ports selected work related to the Talking Head Anime demo. These are distinct relationships: the direct GitHub fork parent is yuyuyzl/EasyVtuber, while the upstream README records earlier lineage and additional dependencies. Future2D does not own any of those upstream projects.
+The Future2D repository is a GitHub fork of yuyuyzl/EasyVtuber. That repository's README records an earlier fork from GunwooHan/EasyVtuber and selected work related to the Talking Head Anime demo. The direct fork parent and the earlier project lineage are separate records.
 
 ## Compatibility scope
 
-EasyVtuber is an image-driven virtual-avatar application rather than a traditional skeletal or Live2D model runtime. The upstream README documents support or integrations for **Talking Head Anime models**, iFacialMocap iOS facial tracking through UDP, OpenSeeFace camera tracking, OpenCV camera input, mouse and audio input, **OBS virtual camera**, and **Spout2** output. It also documents optional acceleration or image-processing components such as TensorRT, DirectML, RIFE interpolation, and super-resolution models.
+EasyVtuber is an image-driven virtual-avatar application. Its pipeline uses **Talking Head Anime models**, iFacialMocap iOS facial tracking through UDP, OpenSeeFace camera tracking, OpenCV camera input, mouse and audio input, **OBS virtual camera**, and **Spout2** output. The README also lists optional acceleration and image-processing components such as TensorRT, DirectML, RIFE interpolation, and super-resolution models.
 
-These capabilities should be read as application pipeline support. They do not mean the project loads Spine data, implements the Live2D Cubism SDK, or defines a general portable 2D model format.
+These capabilities belong to the application pipeline. The README does not list Spine loading, Live2D Cubism SDK implementation, or a general portable 2D model format.
 
 ## Why Future2D catalogs it
 
-EasyVtuber provides a contrasting pipeline in which a source image and tracking signal drive synthesized output. This is useful when deciding what Future2D should classify as model semantics, renderer behavior, input processing, post-processing, or presentation output. It demonstrates that not every 2D avatar workflow is a rigged mesh or skeletal animation workflow.
+EasyVtuber provides a pipeline in which a source image and tracking signal drive synthesized output. It is useful for separating model semantics, renderer behavior, input processing, post-processing, and presentation output when describing 2D avatar systems.
 
 ## Role of the Future2D fork
 
-The fork is cataloged for application-pipeline research. It is not a promise of a maintained Future2D build, support for particular GPUs or trackers, or a recommendation to redistribute its models and dependencies. Upstream system requirements and third-party model licenses must be checked separately.
+The fork is cataloged for application-pipeline research. Upstream system requirements and third-party model licenses must be checked separately.
 
 ## License and use boundary
 

@@ -12,11 +12,11 @@
 
 ## Origin and ownership
 
-The Future2D synfig repository is a fork of Synfig Studio's official source repository. Synfig Studio describes itself upstream as free and open-source 2D animation software maintained by its contributor community. The Future2D copy is retained as a research reference and does not make Future2D an upstream maintainer, release authority, or support channel.
+The Future2D synfig repository is a fork of Synfig Studio's official source repository. Synfig Studio describes itself upstream as free and open-source 2D animation software maintained by its contributor community. Future2D keeps a copy as a research reference; upstream remains the maintainer and release source.
 
 ## Compatibility scope
 
-Synfig Studio is intended for **vector and bitmap 2D animation**, with an emphasis on producing animation without drawing every frame by hand. Its upstream README documents Windows, Linux, and macOS availability. The relevant compatibility scope is authoring and rendering of 2D animation through its own project and rendering model, rather than Live2D/Cubism, Spine, DragonBones, or a facial-tracking protocol.
+Synfig Studio is intended for **vector and bitmap 2D animation**, with an emphasis on producing animation without drawing every frame by hand. Its upstream README documents Windows, Linux, and macOS availability. The compatibility scope here is Synfig's project and rendering model for 2D animation. The page does not list Live2D/Cubism, Spine, DragonBones, or a facial-tracking protocol.
 
 For Future2D, this is evidence that a 2D interchange discussion may need to account for animated vector artwork, parameters or controls, layers, timing, and renderer behavior even where the source system is not a skeletal-avatar runtime.
 
@@ -26,7 +26,7 @@ Synfig provides a mature vector-animation reference for comparing editable artwo
 
 ## Role of the Future2D fork
 
-The fork is used for research and comparison. It is not a Future2D runtime, a promise to support Synfig project files, or a claim that all Synfig features can be represented in another system. Evaluate any conversion or feature mapping against a concrete upstream version and asset.
+The fork is used for research and comparison. Evaluate any conversion or feature mapping against a concrete upstream version and asset.
 
 ## License and use boundary
 

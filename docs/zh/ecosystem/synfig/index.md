@@ -12,11 +12,11 @@
 
 ## 来源与归属
 
-Future2D 的 synfig 仓库 fork 自 Synfig Studio 的官方源码仓库。Synfig Studio 在上游中被描述为 free and open-source 2D animation software，由贡献者社区维护。Future2D 的副本仅作为研究参考，不表示 Future2D 是上游 maintainer、release authority 或 support channel。
+Future2D 的 synfig 仓库 fork 自 Synfig Studio 的官方源码仓库。Synfig Studio 在上游中被描述为 free and open-source 2D animation software，由贡献者社区维护。Future2D 保存副本用于研究，上游仍是维护和发布来源。
 
 ## 适配范围
 
-Synfig Studio 面向 **vector 和 bitmap 2D animation**，强调无需逐帧手绘也能制作动画。上游 README 记录其支持 Windows、Linux 与 macOS。对 Future2D 而言，相关范围是其自身 project/rendering model 中的 2D animation authoring 与 rendering，而不是 Live2D/Cubism、Spine、DragonBones 或 facial-tracking protocol。
+Synfig Studio 面向 **vector 和 bitmap 2D animation**，强调无需逐帧手绘也能制作动画。上游 README 记录其支持 Windows、Linux 与 macOS。这里记录的范围是 Synfig 自身 project/rendering model 中的 2D animation authoring 与 rendering。页面未列出 Live2D/Cubism、Spine、DragonBones 或 facial-tracking protocol。
 
 它表明 2D interchange 的讨论可能需要考虑 animated vector artwork、parameters/controls、layers、timing 和 renderer behavior，即使源系统并非 skeletal-avatar runtime。
 
@@ -26,7 +26,7 @@ Synfig 是比较 editable artwork、interpolation、compositing 与 output behav
 
 ## Future2D fork 的角色
 
-该 fork 用于研究与比较，不是 Future2D runtime，不承诺支持 Synfig project files，也不表示所有 Synfig features 都可以被其他系统表示。任何 conversion 或 feature mapping 都应绑定具体上游版本和资产。
+该 fork 用于研究与比较。任何 conversion 或 feature mapping 都应绑定具体上游版本和资产。
 
 ## 许可证与使用边界
 

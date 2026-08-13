@@ -12,11 +12,11 @@
 
 ## Origin and ownership
 
-This repository is a GitHub fork of Esoteric Software's Spine Runtimes. The upstream project provides the runtime libraries used to load and evaluate data authored with Spine, a 2D skeletal-animation tool. Future2D does not own Spine, its file formats, runtime behavior, trademarks, or licensing terms. The Future2D copy is retained as a research reference inside the organization.
+This repository is a GitHub fork of Esoteric Software's Spine Runtimes. The upstream project provides runtime libraries for loading and evaluating data authored with Spine, a 2D skeletal-animation tool. Future2D keeps the copy as a research reference; Spine, its formats, runtime behavior, trademarks, and licenses remain with Esoteric Software.
 
 ## Compatibility scope
 
-The upstream runtimes are intended to use **Spine skeletal-animation data** with multiple game and application toolkits. The important boundary for Future2D research is not merely drawing a character: Spine data also carries skeleton structure, attachments, skins, timelines, draw order, constraints, and other runtime semantics. A consumer that displays textures but changes those relationships is not behaviorally equivalent to a Spine runtime.
+The upstream runtimes use **Spine skeletal-animation data** with multiple game and application toolkits. Spine data carries skeleton structure, attachments, skins, timelines, draw order, constraints, and other runtime semantics in addition to textures. A compatibility test needs to check those relationships and their evaluation.
 
 The exact supported features and runtime targets depend on the upstream runtime and Spine version. Consult the upstream runtime guide and the selected branch before treating a feature as available.
 
@@ -26,7 +26,7 @@ Spine is a useful reference for a mature 2D skeletal-animation pipeline. It help
 
 ## Role of the Future2D fork
 
-The fork is cataloged for format and runtime study. This page does not assert that Future2D has modified the code, supports every upstream runtime, or provides a Spine-compatible implementation. Any synchronization state, patch, or branch difference must be checked in the GitHub compare view for the specific fork and upstream branch.
+The fork is cataloged for format and runtime study. Check the GitHub compare view for the specific fork and upstream branch when assessing patches, synchronization, or runtime coverage.
 
 ## License and use boundary
 

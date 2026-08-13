@@ -12,13 +12,13 @@
 
 ## 来源与归属
 
-Mocari 是 Eatgrapes/Mocari 维护的上游 Rust 项目的 fork。上游 README 将其描述为纯 Rust 的 Live2D/Cubism runtime experiment，目标是减少对闭源 core 的 native bindings 依赖。Future2D 仓库是 fork 的研究副本，不是上游项目的 canonical home。
+Mocari 是 Eatgrapes/Mocari 维护的上游 Rust 项目的 fork。上游 README 将其描述为纯 Rust 的 Live2D/Cubism runtime experiment，目标是减少对闭源 core 的 native bindings 依赖。Eatgrapes/Mocari 是上游项目，Future2D 仓库是研究副本。
 
 ## 适配范围
 
-Mocari 探索 **Rust 中的 Live2D/Cubism 兼容 runtime**。其目标是成为易调用、易集成的 Rust library，减少复杂的 native runtime 配置。上游发布于 crates.io，但实验性质很关键：它提供的是可能实现边界的证据，不保证支持所有模型、SDK 行为或平台。
+Mocari 探索 **Rust 中的 Live2D/Cubism 兼容 runtime**。其目标是成为易调用、易集成的 Rust library，减少复杂的 native runtime 配置。上游发布于 crates.io，并将项目标为实验性；模型、SDK 行为和平台覆盖应按具体案例核对。
 
-其范围是 runtime 研究而非创作。不能据此假设它能导入 Cubism source projects、替代官方编辑器或提供 Future2D 模型格式。
+其文档范围是 runtime 研究，页面未列出 Cubism source projects 导入、官方编辑器替代品或 Future2D 模型格式。
 
 ## Future2D 收录原因
 
@@ -26,7 +26,7 @@ Mocari 有助于研究在内存安全、跨平台语言中表达和求值 2D 木
 
 ## Future2D fork 的角色
 
-Future2D 将 Mocari 作为原型参考，不表示选择其为参考实现、与上游同步，或已经通过一致性套件验证。任何行为结论都应绑定具体上游 revision 和模型案例。
+Future2D 将 Mocari 作为原型参考。任何行为结论都应绑定具体上游 revision 和模型案例。
 
 ## 许可证与使用边界
 

@@ -15,15 +15,15 @@ hero:
 
 features:
   - title: Open by design
-    details: Future2D studies existing 2D model systems to define shared semantics instead of locking assets to a single tool or runtime.
+    details: Future2D compares existing 2D model systems and documents their shared data and runtime concepts.
   - title: Explicit interchange
-    details: Packages, model graphs, animation, runtime evaluation, and validation are treated as clear, testable boundaries.
+    details: The documentation covers packages, model graphs, animation, runtime evaluation, and validation cases.
   - title: Evidence-led work
-    details: Research, compatibility experiments, draft modules, and reference implementations are tracked separately.
+    details: Research notes, compatibility experiments, draft modules, and reference implementations are recorded separately.
   - title: Ecosystem references
     details: Spine Runtimes, Live2D-compatible runtimes, DragonBones, authoring tools, and application pipelines inform the work.
   - title: Draft a standard together
-    details: The specification starts small, documents uncertainty, and advances through examples and independent implementations.
+    details: Drafts advance through examples, review, and independent implementation work.
   - title: Bilingual from day one
     details: English is the default locale and Simplified Chinese is available under /zh/ with matching documentation routes.
 ---

@@ -1,8 +1,8 @@
 # Integration guides
 
-Guides document how to inspect an existing model, map its semantics, and test a conversion path. They are written for people working with real assets, including contributors who are not yet familiar with every 2D authoring ecosystem.
+Guides document how to inspect an existing model, map its semantics, and test a conversion path. They use real assets and include the context needed to reproduce each result.
 
-The recommended workflow is deliberately evidence-first. Begin with a small asset that demonstrates one capability. Record the source tool and version, export settings, resources involved, and the target runtime. Then compare the result in a way another contributor can repeat.
+Begin with a small asset that demonstrates one capability. Record the source tool and version, export settings, resources involved, and target runtime. Compare the result with steps another contributor can repeat.
 
 ## Planned guides
 
@@ -21,4 +21,4 @@ Large character projects make it difficult to tell which relationship caused a m
 
 ## Reporting uncertainty
 
-If a format's behavior is undocumented, say so. An observation from one export is evidence, not a universal rule. Mark assumptions and ask for a second implementation or a maintainer confirmation before encoding the assumption into a normative module.
+If a format's behavior is undocumented, say so. An observation from one export supports that case only. Mark assumptions and seek a second implementation or maintainer confirmation before adding them to a normative module.

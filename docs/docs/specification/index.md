@@ -1,8 +1,8 @@
 # Specification drafts
 
-Future2D is in its research and draft phase. These modules define the intended scope, not a finalized specification. A module becomes normative only after its terms, examples, validation cases, and implementation implications have been reviewed in public.
+Future2D is in the research and draft phase. These modules describe the intended scope. A module becomes normative after its terms, examples, validation cases, and implementation implications have received public review.
 
-The modules are separated so a tool can adopt a useful subset without pretending to implement the entire standard. Cross-module references must name the dependency they rely on. For example, an animation track can target a model parameter, but it should not redefine the identity rules established by the model module.
+The modules are separated so a tool can adopt a useful subset. Cross-module references must name their dependency. For example, an animation track can target a model parameter while using the identity rules from the model module.
 
 - **Package**: files, resources, and versioning
 - **Model**: hierarchy, geometry, materials, and constraints
@@ -22,4 +22,4 @@ The current site describes the boundaries and questions for each module. It does
 3. **Reference implementation** exercises the proposal against real assets and at least one runtime.
 4. **Interoperability review** compares independent implementations and records remaining ambiguity.
 
-Until these steps are complete, readers should treat a module as an invitation to review rather than a promise of compatibility.
+Until these steps are complete, a module remains review material. Compatibility claims require the corresponding evidence and implementation results.

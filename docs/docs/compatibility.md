@@ -1,6 +1,6 @@
 # Compatibility and validation
 
-Compatibility work records what survives a conversion, what degrades, and what must remain explicit. It is not a pass/fail contest between tools. A conversion may be successful for a target use case while still omitting an advanced effect; the important result is that the omission is visible, repeatable, and documented.
+Compatibility work records what survives a conversion, what degrades, and what remains explicit. A conversion can meet a target use while omitting an advanced effect; the report should make that omission visible, repeatable, and documented.
 
 ## What to record
 
@@ -15,13 +15,13 @@ Each report should include:
 
 ## Parse success is not interchange success
 
-A runtime loading a file proves that it understood enough bytes to continue. It does not prove that hierarchy, deformation, animation timing, clipping, draw order, physics, or events have the intended meaning. Validation should therefore inspect both structural data and the evaluated result.
+A runtime loading a file proves that it understood enough bytes to continue. It says nothing by itself about the meaning of hierarchy, deformation, animation timing, clipping, draw order, physics, or events. Validation should inspect both structural data and the evaluated result.
 
 For visual behavior, a small deterministic fixture is more useful than a large production model. For runtime behavior, record the input state, time step, parameters, and expected event order. When exact rendering differs across platforms, define the invariant that matters: part visibility, ordering, parameter range, or event occurrence.
 
 ## Compatibility levels
 
-Future2D can use compatibility levels as communication, not as marketing scores:
+Future2D can use compatibility levels as a shared vocabulary:
 
 1. **Structural**: the package can be parsed and its identities/resources resolved.
 2. **Semantic**: the target understands the model relationships and capability declarations.

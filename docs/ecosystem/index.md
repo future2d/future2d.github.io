@@ -1,8 +1,8 @@
 # Ecosystem
 
-Future2D catalogues relevant technologies without treating them as parts of a finalized standard. Every entry below is a repository fork in the Future2D GitHub organization. A fork preserves a link to an upstream project; it does not transfer ownership, imply endorsement, or mean that the upstream project implements Future2D.
+Future2D catalogs related technologies for comparison. Every entry below is a fork in the Future2D GitHub organization. The fork link identifies the copy held by Future2D; ownership, releases, licenses, and support remain with the respective upstream project.
 
-The detail pages record the upstream source, the actual format or workflow each project supports, and the narrow reason it is useful to this research. “Compatibility scope” describes the upstream project's documented capabilities, not a claim of Future2D conformance.
+Each detail page records the upstream source, the documented format or workflow, the reviewed fork revision, and the reason the project is useful to this research. “Compatibility scope” quotes the project's current documented capability, not a Future2D conformance result.
 
 ## Models and skeletal animation
 
@@ -44,4 +44,4 @@ The detail pages record the upstream source, the actual format or workflow each 
 
 ## Attribution and scope
 
-Use the detail page and upstream repository before relying on a capability or redistributing code. The Future2D organization owns only its fork copies and any changes made within those copies. Names, code, assets, licenses, trademarks, support obligations, and compatibility claims remain governed by their respective upstream projects. This catalogue does not provide legal advice or a blanket license for any listed repository.
+Read the detail page and upstream repository before relying on a capability or redistributing code. Future2D owns its fork copies and changes made in those copies. Code, assets, names, trademarks, support obligations, and license terms remain specific to each project.

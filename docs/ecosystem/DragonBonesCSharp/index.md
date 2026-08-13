@@ -12,13 +12,13 @@
 
 ## Origin and ownership
 
-DragonBonesCSharp is a fork of the C# runtime maintained in the DragonBones upstream organization. The upstream README identifies it as a DragonBones C# Runtime, with a common library and Unity integration. Future2D's fork preserves this project as a reference; it does not make the DragonBones data format or the original implementation Future2D property.
+DragonBonesCSharp is a fork of the C# runtime maintained in the DragonBones organization. The upstream README identifies it as a DragonBones C# Runtime with a common library and Unity integration. Future2D keeps the copy as a reference; the upstream project retains its code and data format.
 
 ## Compatibility scope
 
 The repository is relevant to **DragonBones skeletal-animation data** and its C# runtime use, including the documented Unity integration. It represents a managed-runtime view of 2D skeletal animation: an application must load model and animation data, evaluate the animation state, and pass the resulting pose to the engine integration. That makes it useful beside native and Rust-oriented runtimes in the ecosystem.
 
-The fork should not be read as a claim that it supports Spine, Live2D, or a Future2D package. DragonBones compatibility is specific to the upstream project's data and runtime contract.
+DragonBones compatibility is specific to the upstream project's data and runtime contract. It is a separate format from Spine, Live2D, and any future Future2D package.
 
 ## Why Future2D catalogs it
 
@@ -26,7 +26,7 @@ DragonBones provides a second established skeletal-animation vocabulary with whi
 
 ## Role of the Future2D fork
 
-Future2D catalogs this fork for managed-runtime and engine-integration research. No Future2D conformance, conversion path, synchronized branch, or support guarantee is implied. Review the exact upstream branch and repository history when assessing code behavior.
+Future2D catalogs this fork for managed-runtime and engine-integration research. Review the exact upstream branch and repository history when assessing code behavior.
 
 ## License and use boundary
 

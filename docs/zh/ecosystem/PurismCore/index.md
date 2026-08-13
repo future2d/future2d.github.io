@@ -12,13 +12,13 @@
 
 ## 来源与归属
 
-PurismCore 是 SakuraMotion 的 Sakura2D Purism Core 的 fork。上游将该项目描述为对 Live2D Cubism Core 中心组件的自由、开源再实现，并明确说明它不是由 Live2D Inc. 开发。Future2D 仅拥有自己的 fork 副本及其中的改动；上游项目、作者和许可证均独立存在。
+PurismCore 是 SakuraMotion 的 Sakura2D Purism Core 的 fork。上游将该项目描述为对 Live2D Cubism Core 中心组件的自由、开源再实现，并说明 Live2D Inc. 未参与开发。Future2D 保存 fork 副本，上游项目、作者和许可证各自独立。
 
 ## 适配范围
 
-PurismCore 目标是 **兼容 Live2D Cubism Core 的 MOC3 加载与求值**。上游 README 说明它是仅依赖 C 标准库的 C99 实现，并按平台分别记录支持情况。这是一种运行时层面的兼容范围，关注加载和计算模型数据所需的行为，而不是创作编辑器或通用 2D 渲染器。
+PurismCore 目标是 **兼容 Live2D Cubism Core 的 MOC3 加载与求值**。上游 README 说明它是仅依赖 C 标准库的 C99 实现，并按平台分别记录支持情况。其范围是加载和计算模型数据所需的运行时行为，创作编辑器和通用 2D 渲染属于其他范围。
 
-能处理一个 MOC3 文件并不等于兼容全部 Cubism SDK 组件、创作流程、资产许可证或应用集成；这些边界必须独立测试。
+MOC3 加载结果只覆盖模型加载边界。其他 Cubism SDK 组件、创作流程、资产许可证和应用集成需要单独测试。
 
 ## Future2D 收录原因
 
@@ -26,7 +26,7 @@ PurismCore 目标是 **兼容 Live2D Cubism Core 的 MOC3 加载与求值**。�
 
 ## Future2D fork 的角色
 
-Future2D 将此 fork 作为兼容性研究参考，不表示 PurismCore 是官方 Future2D runtime、Future2D 提供 MOC3 兼容性，或该 fork 与上游同步。实际补丁和同步状态应通过仓库历史确认。
+Future2D 将此 fork 作为兼容性研究参考。使用具体行为前，应通过仓库历史确认实际补丁和同步状态。
 
 ## 许可证与使用边界
 

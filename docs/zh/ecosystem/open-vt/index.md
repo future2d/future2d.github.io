@@ -12,13 +12,13 @@
 
 ## 来源与归属
 
-open-vt 是 erodozer 维护的开源 2D VTubing 应用的 fork。Future2D 的副本用于研究，不会将应用所有权、tracker integrations、品牌或支持责任从上游转移给 Future2D。
+open-vt 是 erodozer 维护的开源 2D VTubing 应用的 fork。Future2D 保存副本用于研究，应用、集成、品牌和支持仍由上游负责。
 
 ## 适配范围
 
 上游 README 将 open-vt 定义为 **2D VTubing** 软件。文档化的 tracker inputs 包括 **OpenSeeFace** 和通过 Wi-Fi TCP 连接的 **VTube Studio**。它还声明提供 native Linux support、用于 alpha-based OBS capture 的透明窗口支持，并且是应用工作流而非模型创作格式。
 
-这一区分对生态映射很重要：tracking input、model evaluation、desktop compositing 和 OBS capture 是不同接口。支持某一 tracker 并不等于兼容某个 2D model format；能输出透明捕获画面也不规定资产包结构。
+在生态映射中，tracking input、model evaluation、desktop compositing 和 OBS capture 属于不同接口。tracker 集成和透明捕获输出描述的是应用连接方式，不规定 2D model package。
 
 ## Future2D 收录原因
 
@@ -26,7 +26,7 @@ open-vt 为 Future2D 提供从 tracking data 输入、控制 2D avatar 到 captu
 
 ## Future2D fork 的角色
 
-该 fork 是应用管线证据，不是 Future2D runtime，也不表示 Future2D 将支持 OpenSeeFace、VTube Studio、OBS、Linux desktop 或全部 open-vt integration。这些均是独立实现决策。
+该 fork 用作应用管线证据。将其用于兼容性测试时，应根据选定的上游 revision 核对具体集成。
 
 ## 许可证与使用边界
 

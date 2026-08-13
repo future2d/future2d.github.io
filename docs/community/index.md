@@ -1,6 +1,6 @@
 # Community
 
-Future2D grows through evidence, implementation, and careful discussion. Share compatibility findings, propose a model boundary, or help test a reference implementation.
+Future2D uses evidence, implementation work, and technical discussion to develop the project. Contributions can document compatibility findings, propose a model boundary, or test a reference implementation.
 
 - [Visit the GitHub organization](https://github.com/future2d)
 - [Read the documentation](/docs/)

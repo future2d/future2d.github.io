@@ -18,15 +18,15 @@ Future2D 中名为 pencil2d 的仓库 fork 自 Pencil2D 上游源码仓库，其
 
 Pencil2D 支持使用位图和矢量图形进行 **traditional hand-drawn 2D animation**。上游 README 列出 Windows、macOS、Linux 和 FreeBSD 平台。这是一种与 bone-driven、deformation-driven 或 facial-tracking avatar system 不同的创作范围：绘图和帧是主体，runtime 可能需要保留 timing、layers、artwork references 以及 vector/bitmap distinction。
 
-除非上游特定版本的文档明确说明，否则不能把它描述为 Spine、DragonBones 或 Live2D-compatible editor。
+上游文档未将该项目列为 Spine、DragonBones 或 Live2D editor-compatible 项目。
 
 ## Future2D 收录原因
 
-Future2D 需要足够宽的 2D model 视野来理解相邻工作流，而不是强行把所有内容塞进一种 rigging model。Pencil2D 提供 frame-oriented、drawing-first 管线的证据，有助于判断未来标准何时需要可选 animation/artwork module，而不能假定每个 2D asset 都有 skeleton 和 parameters。
+Pencil2D 提供 frame-oriented、drawing-first 管线的证据，有助于判断未来标准何时需要在绑定模型数据之外加入可选的 animation/artwork module。
 
 ## Future2D fork 的角色
 
-该 fork 用于研究 traditional-animation authoring，不是 Future2D authoring tool，不是 Pencil2D community 维护的分支，也不表示其 native project files 已属于 Future2D specification。
+该 fork 用于研究 traditional-animation authoring。其 native project files 仍属于 Pencil2D 项目，本页不将其描述为 Future2D 格式数据。
 
 ## 许可证与使用边界
 

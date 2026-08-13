@@ -12,13 +12,13 @@
 
 ## Origin and ownership
 
-Mocari is a fork of the upstream Rust project maintained at Eatgrapes/Mocari. The upstream README describes it as a pure Rust Live2D/Cubism runtime experiment intended to reduce reliance on native bindings to a closed-source core. The Future2D repository is a forked research copy, not the upstream project's canonical home.
+Mocari is a fork of the upstream Rust project maintained at Eatgrapes/Mocari. The upstream README describes it as a pure Rust Live2D/Cubism runtime experiment intended to reduce reliance on native bindings to a closed-source core. Eatgrapes/Mocari is the upstream project; the Future2D repository is a research copy.
 
 ## Compatibility scope
 
-Mocari explores a **Live2D/Cubism-compatible runtime in Rust**. Its stated goal is a practical Rust library that is straightforward to call and integrate without complicated native runtime setup. It is published on crates.io upstream, but its experimental status matters: an experiment is evidence about a possible implementation boundary, not a promise that every model, SDK behavior, or platform is supported.
+Mocari explores a **Live2D/Cubism-compatible runtime in Rust**. Its stated goal is a Rust library that can be called and integrated without a complex native runtime setup. The upstream project is published on crates.io and describes itself as experimental, so model, SDK, and platform coverage must be checked per case.
 
-The scope is runtime research rather than authoring. It should not be assumed to import Cubism source projects, replace the official editor, or provide a Future2D model format.
+The documented scope is runtime research. The page does not list Cubism source-project import, an editor replacement, or a Future2D model format.
 
 ## Why Future2D catalogs it
 
@@ -26,7 +26,7 @@ Mocari helps examine what is required to express and evaluate 2D puppet behavior
 
 ## Role of the Future2D fork
 
-Future2D treats Mocari as a prototype reference. No claim is made that Future2D has selected it as a reference implementation, synchronized it with upstream, or validated it against a conformance suite. Any behavioral claim must be tied to a specific upstream revision and model case.
+Future2D treats Mocari as a prototype reference. Any behavioral claim must be tied to a specific upstream revision and model case.
 
 ## License and use boundary
 

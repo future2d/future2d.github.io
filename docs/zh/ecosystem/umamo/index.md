@@ -12,13 +12,13 @@
 
 ## 来源与归属
 
-Umamo 是 umamoorg 维护的开源项目的 fork。上游 README 将其描述为跨平台 2D 木偶动画 modelling editor，并具备笔和触控支持。项目仍处于早期开发阶段，API、格式和范围仍会变化。Future2D 的副本仅用于参考，不表示 Future2D 是原始作者或维护者。
+Umamo 是 umamoorg 维护的开源项目的 fork。上游 README 将其描述为跨平台 2D 木偶动画 modelling editor，并具备笔和触控支持。项目仍处于早期开发阶段，API、格式和范围仍会变化。Future2D 保存副本用于参考。
 
 ## 适配范围
 
-Umamo 声明支持 **Live2D Cubism source format `.cmo3`**，并支持导入与导出 **MOC3** runtime 模型。它运行于 Windows、macOS、Linux 与 Android tablets，强调笔和触控输入。因此它是连接可编辑源数据与 runtime 数据的创作侧参考，而不只是渲染器。
+Umamo 声明支持 **Live2D Cubism source format `.cmo3`**，并支持导入与导出 **MOC3** runtime 模型。它运行于 Windows、macOS、Linux 与 Android tablets，强调笔和触控输入。该项目连接可编辑源数据与 runtime 数据，可作为创作侧参考。
 
-声明支持不保证每个 Cubism 功能或版本都能无损 round-trip。比较导入导出行为时，应重视上游的 early-development 说明。
+目前没有证据表明每个 Cubism 功能或版本都能无损 round-trip。比较导入导出行为时，应结合上游的 early-development 说明。
 
 ## Future2D 收录原因
 
@@ -26,7 +26,7 @@ Umamo 声明支持 **Live2D Cubism source format `.cmo3`**，并支持导入与�
 
 ## Future2D fork 的角色
 
-该 fork 被收录为创作工作流参考，不表示它是 Future2D 编辑器、CMO3/MOC3 是 Future2D 格式，或该 fork 已与上游同步。具体能力应从上游 release 和 fork comparison 判断。
+该 fork 被收录为创作工作流参考。CMO3 和 MOC3 仍是 Cubism 格式，具体能力应从上游 release 和 fork comparison 判断。
 
 ## 许可证与使用边界
 
