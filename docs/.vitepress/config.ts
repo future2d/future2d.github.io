@@ -71,6 +71,9 @@ export default defineConfig({
   title: 'Future2D',
   description: 'An open standard initiative for next-generation 2D models.',
   base: '/',
+  sitemap: {
+    hostname: 'https://www.future2d.org',
+  },
   cleanUrls: true,
   appearance: true,
   head: [
